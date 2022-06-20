@@ -8,12 +8,12 @@ public class BucleWhile {
 		boolean condicionParaSalirDelBucle = false;
 		while (condicionParaSalirDelBucle == false) {
 			
-			System.out.println("Estoy repitiendo todo lo que hay entre el corchete de la 75 y el corchete de la 78 hasta que condicionParaSalirDelBucle sea true");
+			System.out.println("Estoy repitiendo todo lo que hay entre el corchete de la 9 y el corchete de la 12 hasta que condicionParaSalirDelBucle sea true");
 		}
 		
 		//Do While
 		do {
-			System.out.println("Estoy repitiendo todo lo que hay entre el corchete de la 77 y el corchete de la 79 hasta que condicionParaSalirDelBucle sea true"
+			System.out.println("Estoy repitiendo todo lo que hay entre el corchete de la 15 y el corchete de la 18 hasta que condicionParaSalirDelBucle sea true"
 					+ "pero ejecuto el bucle una vez antes de comprobarlo");
 		}while (condicionParaSalirDelBucle == false);
 		
