@@ -15,6 +15,12 @@ public class BucleFor {
 			System.out.println(arrayOMatriz[i]);
 		}
 	
+		
+		//Cuando sabemos con certeza que vamos a recorrer un array de principio a fin, simplifamos el for utilizando un foreach
+		//La estructura es la siguiente
+		/*
+			for(variable del mismo tipo que el array: array){}
+		*/
 		for (int elemento : arrayOMatriz){ //Este es lo mismo que el de arriba
 			System.out.println(elemento);
 		}
